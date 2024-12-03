@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SBHR</name>
+	<gx:CascadingStyle kml:id="__managed_style_260AF3C66533C90BF7A9">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1660EA064533C90BF7A9">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A847C80DE33C90BF7A9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1660EA064533C90BF7A9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_260AF3C66533C90BF7A9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="02DFB5AF3A33C90BF7A5">
+		<name>Hyderabad</name>
+		<LookAt>
+			<longitude>78.47240685524645</longitude>
+			<latitude>17.33982155789842</latitude>
+			<altitude>563.4279604502761</altitude>
+			<heading>4.210481232864328</heading>
+			<tilt>0.3441111264735646</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>50998.53296547197</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>78.48275647838102,17.37882381612656,513.0078458908806</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B2760AD5233C90CBF6A">
+		<name>Guntur</name>
+		<LookAt>
+			<longitude>80.43532343751606</longitude>
+			<latitude>16.30037892527077</latitude>
+			<altitude>50.42079893233912</altitude>
+			<heading>4.210435813596588</heading>
+			<tilt>0.3421582423220241</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>14548.2149516861</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>80.43681916101843,16.30632703320749,56.45288940517437</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02BEC2698033C90D7C03">
+		<name>Chennai</name>
+		<LookAt>
+			<longitude>80.26773581913518</longitude>
+			<latitude>13.08967680116489</latitude>
+			<altitude>31.19193071858978</altitude>
+			<heading>4.210438139200376</heading>
+			<tilt>0.3424796000321023</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>20545.70989667438</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>80.2618017624003,13.08251184069093,28.77888524127888</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CF12113F833C90E2BB9">
+		<name>Pondicherry</name>
+		<LookAt>
+			<longitude>79.99378961665678</longitude>
+			<latitude>12.21314046628617</latitude>
+			<altitude>54.6236306949183</altitude>
+			<heading>4.210585167332908</heading>
+			<tilt>0.351813389050757</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>194741.4265261777</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>79.79008582578128,11.94477350212972,146.2108973608995</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="080CB7077F33C90E9FAA">
+		<name>Madurai</name>
+		<LookAt>
+			<longitude>78.09924959925674</longitude>
+			<latitude>9.986882065725863</latitude>
+			<altitude>188.8199570838039</altitude>
+			<heading>4.21045495770985</heading>
+			<tilt>0.3441687283427389</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>52071.01870997809</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>78.11942319574186,9.939230443987102,155.6647924093512</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AFAA76DF933C90EFDBD">
+		<name>Kodaikanal</name>
+		<LookAt>
+			<longitude>77.49764132221694</longitude>
+			<latitude>10.23428676119457</latitude>
+			<altitude>2029.652232600423</altitude>
+			<heading>4.210423332755289</heading>
+			<tilt>0.341716221763848</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6301.145972146189</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>77.49783903362203,10.23959103805651,2047.64339546751</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0942E7C88233C90FE99A">
+		<name>Bangalore</name>
+		<LookAt>
+			<longitude>77.53520657266705</longitude>
+			<latitude>13.03535377610843</latitude>
+			<altitude>964.3479599081628</altitude>
+			<heading>4.210460592217086</heading>
+			<tilt>0.3437978920752703</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>45155.62407885678</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A847C80DE33C90BF7A9</styleUrl>
+		<Point>
+			<coordinates>77.58928423689709,12.97936133831987,972.7111739260476</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
