@@ -14,7 +14,7 @@ const BirthdayManager = () => {
 
   const fetchBirthdays = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/get-birthdays');
+      const response = await axios.get('https://birthday-manager-backend.onrender.com/api/get-birthdays');
       setList(response.data.data);
     } catch (error) {
       console.error('Error fetching birthdays:', error);
@@ -26,7 +26,7 @@ const BirthdayManager = () => {
       setLoading(true);
       setOverlayMessage('Adding birthday...');
       try {
-        await axios.post('http://localhost:5000/api/add-birthday', { name, dob, email });
+        await axios.post('https://birthday-manager-backend.onrender.com/api/add-birthday', { name, dob, email });
         fetchBirthdays();
         setName('');
         setDob('');
@@ -53,7 +53,7 @@ const BirthdayManager = () => {
     setLoading(true);
     setOverlayMessage("Deleting birthday...");
     try {
-      await axios.delete(`http://localhost:5000/api/delete-birthday/${id}`);
+      await axios.delete(`https://birthday-manager-backend.onrender.com/api/delete-birthday/${id}`);
       fetchBirthdays();
       setOverlayMessage("Birthday deleted successfully!");
     } catch (error) {
@@ -146,7 +146,7 @@ const BirthdayManager = () => {
       </div>
 
       <div className="container">
-        <h2 className="title">🎉 Birthday List 🎉</h2>
+        <h2>🎉 Birthday List 🎉</h2>
 
         <div className="emp">
           {filteredList.map((item) => (
